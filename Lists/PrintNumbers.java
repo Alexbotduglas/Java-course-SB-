@@ -11,10 +11,14 @@ public class Main {
         for (Integer value : values) {
             System.out.println(value);
         }
+        Integer[] nums = values.toArray(new Integer[0]);
+        System.out.println(Arrays.toString(nums));
     }
 }
+
 
 // 10
 // 20
 // 30
 // 40
+// [10, 20, 30, 40]
